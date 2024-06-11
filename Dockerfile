@@ -1,8 +1,8 @@
 # Use the official Python image as the base image
-FROM python:3.8
+FROM python:3.10
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /App
 
 # Copy the application files into the working directory
 COPY . /app
