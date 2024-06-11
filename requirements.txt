@@ -1,0 +1,5 @@
+Flask
+Flask-SocketIO
+pyrebase4
+tensorflow
+numpy
