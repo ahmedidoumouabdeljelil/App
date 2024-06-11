@@ -5,7 +5,7 @@ FROM python:3.10
 WORKDIR /App
 
 # Copy the application files into the working directory
-COPY . /app
+COPY . /App
 
 # Install the application dependencies
 RUN pip install -r requirements.txt
