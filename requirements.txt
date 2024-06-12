@@ -1,6 +1,6 @@
-Flask
-flask-socketio
-pyrebase4
+Flask==3.0.0
+flask-socketio==5.2.0
+pyrebase4==2.2.0
 tensorflow==2.12.0
-numpy
+numpy==1.21.0
 
