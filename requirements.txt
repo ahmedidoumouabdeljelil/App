@@ -3,3 +3,4 @@ Flask-SocketIO
 pyrebase4
 tensorflow
 numpy
+streamlit
