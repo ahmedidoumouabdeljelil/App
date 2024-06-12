@@ -1,5 +1,5 @@
 Flask
-flask-socketio
+flask-socketio==5.2.0
 pyrebase4
 tensorflow
 numpy
