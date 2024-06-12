@@ -7,7 +7,7 @@ from flask import Flask, render_template
 from flask_socketio import SocketIO
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
-socketio = SocketIO(app)
+socketio = SocketIO(app,logger=True)
 firebaseConfig = {
     "apiKey": "AIzaSyBjDArp_CvaEjvELFQWd_S1N7dSJW6Kz0o",
     "authDomain": "data-5647b.firebaseapp.com",
@@ -55,4 +55,4 @@ def index():
 
 if __name__ == '__main__':
     threading.Thread(target=load_data_and_predict).start()
-    socketio.run(app, debug=True)
+    socketio.run(app)
